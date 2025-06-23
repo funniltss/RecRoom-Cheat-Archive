@@ -1,0 +1,20 @@
+﻿  dllmain.cpp
+C:\Users\gtfhj\Desktop\ImGUI-steam-hook-DX11-main\DirectX11-SteamOverlay-Hook\dllmain.cpp(28,12): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  Generating Code...
+  LINK : C:\Users\gtfhj\Desktop\ImGUI-steam-hook-DX11-main\x64\Debug\DirectX11-SteamOverlay-Hook.dll not found or not built by the last incremental link; performing full link
+discord-rpc.lib(discord_rpc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in dllmain.obj
+discord-rpc.lib(discord_rpc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in dllmain.obj
+discord-rpc.lib(discord_register_win.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in dllmain.obj
+discord-rpc.lib(discord_register_win.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in dllmain.obj
+discord-rpc.lib(serialization.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in dllmain.obj
+discord-rpc.lib(serialization.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in dllmain.obj
+discord-rpc.lib(rpc_connection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in dllmain.obj
+discord-rpc.lib(rpc_connection.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in dllmain.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\gtfhj\Desktop\ImGUI-steam-hook-DX11-main\x64\Debug\DirectX11-SteamOverlay-Hook.dll : fatal error LNK1319: 8 mismatches detected
