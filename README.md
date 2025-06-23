@@ -1,4 +1,4 @@
 # RecRoom-Cheat-Archive
 A repository for archiving RecRoom cheats
 
-# Change logs
+If you want something removing contact me on Discord. extremeblitz_ . https://discord.gg/projectunban
