@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFB0EA48-08DE-44DE-8448-22E808ABB23D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Nerec</RootNamespace>
+    <AssemblyName>Nerec</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="Il2CppCodestage.Anticheattoolkit.Runtime" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Il2CppPhoton3Unity3D" />
+    <Reference Include="Il2CppPhotonRealtime" />
+    <Reference Include="Il2CppPhotonUnityNetworking" />
+    <Reference Include="Il2CppRecNet.Runtime" />
+    <Reference Include="Il2CppRecRoom.Datastructures.Singletons.Runtime" />
+    <Reference Include="Il2CppRecRoom.Promises.Runtime" />
+    <Reference Include="Il2CppRecRoom.Rranticheat.Runtime" />
+    <Reference Include="Il2CppRecRoom.RRUI.Data.Runtime" />
+    <Reference Include="Il2CppRecRoom.RRUI.Navigation.Runtime" />
+    <Reference Include="MelonLoader" />
+    <Reference Include="Nerec.UJect" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Debugging\BPKKODCJMHBMHEGJJE.cs" />
+    <Compile Include="Entry.cs" />
+    <Compile Include="IDAFIIJHJKMALNIJMH.cs" />
+    <Compile Include="Inject\Cheat\OCCOJOPOBEEJAKEOMB.cs" />
+    <Compile Include="Inject\Cheat\PDFNNALBNPGMIBLPFG.cs" />
+    <Compile Include="Library\BHCDOPIGBJGDONCCFH.cs" />
+    <Compile Include="Library\Callbacks\JMGPLEBEJDLEKELDHK.cs" />
+    <Compile Include="Library\Critical\AEOPABNEELFJNLMIDE.cs" />
+    <Compile Include="Library\Critical\AJEEIDDINCCNHALLLP.cs" />
+    <Compile Include="Library\Critical\BBOJFIPACPPOGOBJHB.cs" />
+    <Compile Include="Library\Critical\CEIIEHOPGGFPCKALCB.cs" />
+    <Compile Include="Library\Critical\ClientAuth\ACKDMFFONHEGBBJLKK.cs" />
+    <Compile Include="Library\Critical\ClientAuth\DONAJGKGPNKECDGDOG.cs" />
+    <Compile Include="Library\Critical\ClientAuth\HMLHHOLDAFJBNAKPPD.cs" />
+    <Compile Include="Library\Critical\GPJBPFLEOHNKDILOIK.cs" />
+    <Compile Include="Library\Critical\HGLGLGBGIGEBNIJDGN.cs" />
+    <Compile Include="Library\Critical\JEIIJOGEFFHNANFFBE.cs" />
+    <Compile Include="Library\Critical\LFCOLCKMNOJFEFBCIM.cs" />
+    <Compile Include="Library\Critical\NLGBPDFPKEDFNAFANH.cs" />
+    <Compile Include="Library\DGLGKLKIPNINGHGFPM.cs" />
+    <Compile Include="Library\EDHKOPELHMPNCPAHMA.cs" />
+    <Compile Include="Library\HDPAGNMBHIAPALFBDG.cs" />
+    <Compile Include="Library\Includes\AEOJIKIFPKKJCOMBAO.cs" />
+    <Compile Include="Library\Includes\FBAGIDFKLGJMONIPNA.cs" />
+    <Compile Include="Library\Includes\FFACMGPJKHNBKLCJEK.cs" />
+    <Compile Include="Library\Includes\FJPLJPFGCPEFCNJGNK.cs" />
+    <Compile Include="Library\Includes\FKEMNDNPHAGJKEFHKN.cs" />
+    <Compile Include="Library\Includes\GDHIDEPCCBEBPAPBBK.cs" />
+    <Compile Include="Library\Includes\GLALCDFEFEMIFEJBAL.cs" />
+    <Compile Include="Library\Includes\GLOMGGIOCDALLIEGAB.cs" />
+    <Compile Include="Library\Includes\GNECJDNDCMFCBAKMBK.cs" />
+    <Compile Include="Library\Includes\HCDGGMLMONJBIJBBOI.cs" />
+    <Compile Include="Library\Includes\HKLDGGMCANEIPNDPIB.cs" />
+    <Compile Include="Library\Includes\IFENNLNKLIGMDDCPLM.cs" />
+    <Compile Include="Library\Includes\IOPBKGMNPFHIEIFCEA.cs" />
+    <Compile Include="Library\Includes\JELGILABEGAPMCJHFF.cs" />
+    <Compile Include="Library\Includes\JKGLHAAMDAFFCEKMOC.cs" />
+    <Compile Include="Library\Includes\KEKLBJIKIJGLEPGGAB.cs" />
+    <Compile Include="Library\Includes\KHDFGFMBCOEIABGDGP.cs" />
+    <Compile Include="Library\Includes\KPEDLOGCLIIMEFHOJC.cs" />
+    <Compile Include="Library\Includes\LCOEGINFMGNENBCEGC.cs" />
+    <Compile Include="Library\Includes\LELJFOJDKPDCJHOIKN.cs" />
+    <Compile Include="Library\Includes\MICKGCLEMINKBHGPHG.cs" />
+    <Compile Include="Library\Includes\MMMKOGEMMAMANCCAIL.cs" />
+    <Compile Include="Library\Includes\ODIOKAECHIOGGGGLPC.cs" />
+    <Compile Include="Library\Includes\OKOEJLJNIMHOGIEDFP.cs" />
+    <Compile Include="Library\Includes\OOIBBJFODDICJJPBMO.cs" />
+    <Compile Include="Library\Includes\PAPGFFIAEPDMAOFCHH.cs" />
+    <Compile Include="Library\Includes\PBKMLIAADEKIJOKEKA.cs" />
+    <Compile Include="Library\Includes\PNHGDGLPIHCIEIDLCI.cs" />
+    <Compile Include="Library\IPDMLDCHOFKILLMKLE.cs" />
+    <Compile Include="Library\KDMLJLIJNANBIKHKCO.cs" />
+    <Compile Include="Library\KHPHJIOMCFBENNMEKI.cs" />
+    <Compile Include="Library\LLHALDELIJLHMBBGID.cs" />
+    <Compile Include="Library\ODCFJDIDECFCPJJAAL.cs" />
+    <Compile Include="Library\ServerOverride\ALHKNNPLCHJIHPKEJA.cs" />
+    <Compile Include="Library\ServerOverride\HCHDIFPAJJEJBMOJCK.cs" />
+    <Compile Include="Library\ServerOverride\IPPGJCBBICAGMIPDAP.cs" />
+    <Compile Include="Library\ServerOverride\NGBFHGHBKJEJMDJLKI.cs" />
+    <Compile Include="Library\ServerOverride\NHPKLNKJKKGEFCHFEA.cs" />
+    <Compile Include="Library\ServerOverride\ONKFJNMENILDGIEPFF.cs" />
+    <Compile Include="Library\UnityGUI\Custom\AHEMBDADDAIGKKCHLP.cs" />
+    <Compile Include="Library\UnityGUI\Custom\CLEADJDDHNHJPCKBLC.cs" />
+    <Compile Include="Library\UnityGUI\Custom\HEBJBLHGIHOAAGLKDE.cs" />
+    <Compile Include="Library\UnityGUI\Custom\MCIFPFEMOIIKHCOPMB.cs" />
+    <Compile Include="Library\UnityGUI\Custom\NLPAFJIBPHJKGCMKMH.cs" />
+    <Compile Include="Library\UnityGUI\Custom\OIFDMGCKGNDLJCPEDO.cs" />
+    <Compile Include="Library\UnityGUI\Custom\OOBFDCHGGKFKMGFLOK.cs" />
+    <Compile Include="Library\UnityGUI\Custom\PDHGBIOADHKGKNMIDL.cs" />
+    <Compile Include="Library\UnityGUI\DJMEEHCEBDFOKODOCD.cs" />
+    <Compile Include="Library\UnityGUI\Drawers\MIMMNHBFFPDELIMLFB.cs" />
+    <Compile Include="Library\UnityGUI\Drawers\OCJEPDIFBENACKEIIK.cs" />
+    <Compile Include="Library\UnityGUI\FPILPOPAMHBJOIIGKM.cs" />
+    <Compile Include="Library\UnityGUI\HFEGHHKLDIHAEOPAJI.cs" />
+    <Compile Include="Library\UnityGUI\LEENAFEMLNIDFDHFBO.cs" />
+    <Compile Include="Library\UnityGUI\NBKBLKAEBNKKNKKHIN.cs" />
+    <Compile Include="Library\UnityGUI\NHGPLONONLOMAICKNA.cs" />
+    <Compile Include="Library\UnityGUI\OFMPAOLHNHKHKFPADJ.cs" />
+    <Compile Include="Library\UnityGUI\PEIKILBNEBPOGFOEJJ.cs" />
+    <Compile Include="Library\UnityGUI\PIMOHOCBLANOOCHIOK.cs" />
+    <Compile Include="Library\UnityGUI\Sanitizers\GFEFJAFLCAOHNNEIPA.cs" />
+    <Compile Include="Library\Unity\IINAFDNNOGOKGGOKHM.cs" />
+    <Compile Include="MONGCIBBOKHOHJDFKE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utf8Json\AAOCAAJHAGCFOOIPCG.cs" />
+    <Compile Include="Utf8Json\BHBMDGIJKJJJKFJCIF.cs" />
+    <Compile Include="Utf8Json\BJLLMLPIIIPIEPLCJH.cs" />
+    <Compile Include="Utf8Json\BPIPCPJELFMIKDNCFG.cs" />
+    <Compile Include="Utf8Json\CBDAFKBMADIJACENAE.cs" />
+    <Compile Include="Utf8Json\CLAPLAKGMOAABEOHEI.cs" />
+    <Compile Include="Utf8Json\DDGADMMMOKKMDLNAEK.cs" />
+    <Compile Include="Utf8Json\FFEIDIOIJPCAMMEPMJ.cs" />
+    <Compile Include="Utf8Json\FLGKBGGCEAHKIBEKBN.cs" />
+    <Compile Include="Utf8Json\Formatters\AAADJIHEFPOLHGHNKE.cs" />
+    <Compile Include="Utf8Json\Formatters\AGMPEMMGBOILFKDBML.cs" />
+    <Compile Include="Utf8Json\Formatters\AJIKGNJFKKJFMDBILE.cs" />
+    <Compile Include="Utf8Json\Formatters\AKLJJAIHCEBHKDNMDE.cs" />
+    <Compile Include="Utf8Json\Formatters\ANPOJLPNLDMLJLENIE.cs" />
+    <Compile Include="Utf8Json\Formatters\BANMBBILGINALLANGK.cs" />
+    <Compile Include="Utf8Json\Formatters\BIBEOBCPDOHAHEBHGB.cs" />
+    <Compile Include="Utf8Json\Formatters\BJLEKHIFAMADDBHNGK.cs" />
+    <Compile Include="Utf8Json\Formatters\BMKCBCOMGEOPJCGDLE.cs" />
+    <Compile Include="Utf8Json\Formatters\BODNBPGEAMAPLAAPDJ.cs" />
+    <Compile Include="Utf8Json\Formatters\BOIHDJICFGNOEACKGP.cs" />
+    <Compile Include="Utf8Json\Formatters\CBDAEKAEHDCJBGEKKH.cs" />
+    <Compile Include="Utf8Json\Formatters\CBGGOGHLBDNMGFCCGI.cs" />
+    <Compile Include="Utf8Json\Formatters\CFFOJKKJAGBOIOKBHE.cs" />
+    <Compile Include="Utf8Json\Formatters\CKOCONNKFCAHBIMGDI.cs" />
+    <Compile Include="Utf8Json\Formatters\DCDFBBBMGIEJPCNOGE.cs" />
+    <Compile Include="Utf8Json\Formatters\DEONKGNPBNOBJKKEFD.cs" />
+    <Compile Include="Utf8Json\Formatters\DFELCGIFFJGKPOLHBG.cs" />
+    <Compile Include="Utf8Json\Formatters\DHOKFMAJNCHGOPCGID.cs" />
+    <Compile Include="Utf8Json\Formatters\DIPILMBALLFAEKKJBA.cs" />
+    <Compile Include="Utf8Json\Formatters\DNGDPDMFCFACOGHDCG.cs" />
+    <Compile Include="Utf8Json\Formatters\DPJPIDAFGGIHMNLHAE.cs" />
+    <Compile Include="Utf8Json\Formatters\EBEKNAMEADGFCKOCHA.cs" />
+    <Compile Include="Utf8Json\Formatters\EEBBILKLHHFKOLMAIP.cs" />
+    <Compile Include="Utf8Json\Formatters\EEGEGBBHADFJPDNCHK.cs" />
+    <Compile Include="Utf8Json\Formatters\EGNHBAONECIEHONHOI.cs" />
+    <Compile Include="Utf8Json\Formatters\EHPIFJOFFDNBOEBMMO.cs" />
+    <Compile Include="Utf8Json\Formatters\EKNOLMEMLPPBCANDBP.cs" />
+    <Compile Include="Utf8Json\Formatters\EMJKLPGBBKPMHCFOLM.cs" />
+    <Compile Include="Utf8Json\Formatters\ENLBGJCICGKBEFNFAE.cs" />
+    <Compile Include="Utf8Json\Formatters\FGMHNGPMJJLBEKJEHO.cs" />
+    <Compile Include="Utf8Json\Formatters\FNFLLANKOLKONBIAJO.cs" />
+    <Compile Include="Utf8Json\Formatters\FNMGOGBIFAIAMEHOAE.cs" />
+    <Compile Include="Utf8Json\Formatters\FOOGMNEHKGLMPODDBE.cs" />
+    <Compile Include="Utf8Json\Formatters\FPOKECPOKBPDPMADDG.cs" />
+    <Compile Include="Utf8Json\Formatters\GAPOAJPJNIPCNCCMDH.cs" />
+    <Compile Include="Utf8Json\Formatters\GFPBBBJIKGGFLKFGLE.cs" />
+    <Compile Include="Utf8Json\Formatters\GHGIMKPDBINGMHGCII.cs" />
+    <Compile Include="Utf8Json\Formatters\GIMAMOBODNKDLPJLFH.cs" />
+    <Compile Include="Utf8Json\Formatters\GMMAAGDBDNGLLGBIMI.cs" />
+    <Compile Include="Utf8Json\Formatters\HABDEDLGNFJLHLADBN.cs" />
+    <Compile Include="Utf8Json\Formatters\HAOGNLGKHHMGNHFKJO.cs" />
+    <Compile Include="Utf8Json\Formatters\HHFDIECAIMKGBGGJLB.cs" />
+    <Compile Include="Utf8Json\Formatters\HJFPBFBABBGJBEFDAA.cs" />
+    <Compile Include="Utf8Json\Formatters\HKEBKNGGDLPBAKMEEJ.cs" />
+    <Compile Include="Utf8Json\Formatters\HLBJFPJDFNBAAMDGPC.cs" />
+    <Compile Include="Utf8Json\Formatters\ICAIPKKEFMGOBDLGNB.cs" />
+    <Compile Include="Utf8Json\Formatters\IDPEHIJGNNCKGFFAJL.cs" />
+    <Compile Include="Utf8Json\Formatters\IFALDHKCBPMBIPPKII.cs" />
+    <Compile Include="Utf8Json\Formatters\IFFDKFELLLGHFEPCJC.cs" />
+    <Compile Include="Utf8Json\Formatters\IGJMDLPPCAJGPGBAJK.cs" />
+    <Compile Include="Utf8Json\Formatters\IJEPOEPIFGICIEIIDC.cs" />
+    <Compile Include="Utf8Json\Formatters\IMJGNHMCICEJCFGNDI.cs" />
+    <Compile Include="Utf8Json\Formatters\Internal\CALNGPEONCMKOFIDMF.cs" />
+    <Compile Include="Utf8Json\Formatters\Internal\JBLAEPIEBLCLLAIFCH.cs" />
+    <Compile Include="Utf8Json\Formatters\JDKMENEBBPMBIKPJNH.cs" />
+    <Compile Include="Utf8Json\Formatters\JKKPKILCICOPILBOOM.cs" />
+    <Compile Include="Utf8Json\Formatters\JMBBEHGDIPJCLCLHLK.cs" />
+    <Compile Include="Utf8Json\Formatters\JPJCGHBIBCANKABLPB.cs" />
+    <Compile Include="Utf8Json\Formatters\KAMJEJLOOCODKADEDK.cs" />
+    <Compile Include="Utf8Json\Formatters\KICPACHNOFKGNMLENA.cs" />
+    <Compile Include="Utf8Json\Formatters\KKDAPNKHIEMFDCHNBD.cs" />
+    <Compile Include="Utf8Json\Formatters\KKPKOCPKFLGGKCLCAJ.cs" />
+    <Compile Include="Utf8Json\Formatters\KLLCCAJMPEMBKHPFNC.cs" />
+    <Compile Include="Utf8Json\Formatters\KMJIGPGHPFKEJDLOHL.cs" />
+    <Compile Include="Utf8Json\Formatters\KPEJFPBJNOAHJBFCJF.cs" />
+    <Compile Include="Utf8Json\Formatters\LBIMCNIBNIJKDCNNFB.cs" />
+    <Compile Include="Utf8Json\Formatters\LCAAILBDJOKGFOKBAP.cs" />
+    <Compile Include="Utf8Json\Formatters\LDFPPDOGGFGHOGJPLE.cs" />
+    <Compile Include="Utf8Json\Formatters\LMONHELFBJKMHHCAIH.cs" />
+    <Compile Include="Utf8Json\Formatters\LNGJKFEBMOLLNKPPKM.cs" />
+    <Compile Include="Utf8Json\Formatters\LNMEBOIPBGJCJGDHGO.cs" />
+    <Compile Include="Utf8Json\Formatters\MFIHBGGKNFMEDBBAOB.cs" />
+    <Compile Include="Utf8Json\Formatters\MGHBGMHOKOJJAJGPKE.cs" />
+    <Compile Include="Utf8Json\Formatters\MHBKJELGBJKJEKGMNM.cs" />
+    <Compile Include="Utf8Json\Formatters\MJEPABFNFHKPLFNMOB.cs" />
+    <Compile Include="Utf8Json\Formatters\MPBKCHPCHMHCLDLIHE.cs" />
+    <Compile Include="Utf8Json\Formatters\NCINKFFFBMOHMKKGFA.cs" />
+    <Compile Include="Utf8Json\Formatters\NJEBFEBMCIOELKAAJH.cs" />
+    <Compile Include="Utf8Json\Formatters\NLFAENHHBNGAPFGHOF.cs" />
+    <Compile Include="Utf8Json\Formatters\NOMPCMENHDFMIICJOH.cs" />
+    <Compile Include="Utf8Json\Formatters\OBEALNGEAEJFLDBBEN.cs" />
+    <Compile Include="Utf8Json\Formatters\OBPPHDGBJEHNLHMKCM.cs" />
+    <Compile Include="Utf8Json\Formatters\ODJHBFIBKEOLPMNFBH.cs" />
+    <Compile Include="Utf8Json\Formatters\OFNBJFKMKNMHCCFANJ.cs" />
+    <Compile Include="Utf8Json\Formatters\OHANNICJAMDLIFELPF.cs" />
+    <Compile Include="Utf8Json\Formatters\OKFEHAMDJMGDLEJKEN.cs" />
+    <Compile Include="Utf8Json\Formatters\OLDICEJCINFNADGBBI.cs" />
+    <Compile Include="Utf8Json\Formatters\OOKBIEBLBOMPAKHLLC.cs" />
+    <Compile Include="Utf8Json\Formatters\OOMBJDOIMBJBCFDFJJ.cs" />
+    <Compile Include="Utf8Json\Formatters\OPFOEFBJDEGNOONJBD.cs" />
+    <Compile Include="Utf8Json\Formatters\PBIAFKPPHHBCBIFGIB.cs" />
+    <Compile Include="Utf8Json\Formatters\PBIAGDAMFKDEDPEIPO.cs" />
+    <Compile Include="Utf8Json\Formatters\PCKGPJFBBEPGMDADGH.cs" />
+    <Compile Include="Utf8Json\Formatters\PFKAAEIEJKDOFKHAOA.cs" />
+    <Compile Include="Utf8Json\Formatters\PGDBPPMMBNEHAMOLIB.cs" />
+    <Compile Include="Utf8Json\Formatters\PGJDHEOBFNCMFIANLM.cs" />
+    <Compile Include="Utf8Json\Formatters\PHCKMDECDGFINLNIOH.cs" />
+    <Compile Include="Utf8Json\Formatters\PIDMAPOAJKKLKAOACJ.cs" />
+    <Compile Include="Utf8Json\Formatters\PJECGAHIBHLCGHLAAN.cs" />
+    <Compile Include="Utf8Json\Formatters\PKIBHDJFLJLFNAKCNE.cs" />
+    <Compile Include="Utf8Json\Formatters\PKJMJJMLCBICLOGOJI.cs" />
+    <Compile Include="Utf8Json\Formatters\PPDLJBPELMFCEOFLDA.cs" />
+    <Compile Include="Utf8Json\GLJJNJDFMBPNMFKPAP.cs" />
+    <Compile Include="Utf8Json\HELAFKCALOKDAFDDFJ.cs" />
+    <Compile Include="Utf8Json\HIKJNEKCCKKNCPDMLJ.cs" />
+    <Compile Include="Utf8Json\IHACCEAELFJBICGADL.cs" />
+    <Compile Include="Utf8Json\Internal\AGIKLMFPEFJELOKJEB.cs" />
+    <Compile Include="Utf8Json\Internal\CBCBOOCAFACEIEKOLL.cs" />
+    <Compile Include="Utf8Json\Internal\CHFCLNEOCDIHMILKOP.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\BMLEBHBCBKLKGECLOF.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\DFELICPFJECDGJNKPN.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\EMHOPOIONJBBHJKOEC.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\FAJALLMDLONJIEJMNJ.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\FMGHMOBIJHKCNEJIFN.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\HDHDIOINPIINFEHAMH.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\HFKALNCKGKOPDHDBMN.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\HHNGBDDICKLNBAACJD.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\JHMMNENMMBEGNACKKH.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\MNKABGNLNPAALJMGKF.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\MNOLJABBCPCCAJOOBF.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\NBGFGLNABDPFPOJAOB.cs" />
+    <Compile Include="Utf8Json\Internal\DoubleConversion\PEFHEAKKGLPFCPKEGF.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\BGIPGFFBOJDBGFMMAD.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\DILDNPCNJDCNMBMPHO.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\EECKCCFDGNGAJENEAB.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\FDPLNNAFBFLOPLGOKL.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\GGLNGMDCNHOEAJHKOG.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\GMPKOFIBGBNJPLELDP.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\HAGIHFGIGMOBLEDDGC.cs" />
+    <Compile Include="Utf8Json\Internal\Emit\OENLDEHMHHEPGDFHKG.cs" />
+    <Compile Include="Utf8Json\Internal\FLKLOHJCFNJIBPBADP.cs" />
+    <Compile Include="Utf8Json\Internal\GBLOAMEEDDEJCBBGHB.cs" />
+    <Compile Include="Utf8Json\Internal\KCGGNJEJCCLLDKMMNN.cs" />
+    <Compile Include="Utf8Json\Internal\LANLHIKNEAFDIDOKHM.cs" />
+    <Compile Include="Utf8Json\Internal\LCKBMKDJCBFPPGKFIB.cs" />
+    <Compile Include="Utf8Json\Internal\LNMOFFKENDGOEDLKBN.cs" />
+    <Compile Include="Utf8Json\Internal\MGIMFHAGEKMNFOIMFL.cs" />
+    <Compile Include="Utf8Json\Internal\MHBOKPBBKJJEANGOOI.cs" />
+    <Compile Include="Utf8Json\Internal\NBNDJGENFIKGKIHENM.cs" />
+    <Compile Include="Utf8Json\Internal\OBFBKBEIGKPFIDHCOK.cs" />
+    <Compile Include="Utf8Json\Internal\OCPOKGPLBCLIEHKKHN.cs" />
+    <Compile Include="Utf8Json\Internal\PLFJFHEOALIJKCIFIN.cs" />
+    <Compile Include="Utf8Json\LMCMANMFGJGJFPNBEN.cs" />
+    <Compile Include="Utf8Json\NODLCKMOHBBPIMOOAB.cs" />
+    <Compile Include="Utf8Json\OJFAAEDNBNAMBCPLED.cs" />
+    <Compile Include="Utf8Json\OJKBDJBONOCKIDIKGG.cs" />
+    <Compile Include="Utf8Json\PCPKEIOPEDBCBJAJCJ.cs" />
+    <Compile Include="Utf8Json\PMCLMDICJEBPLHOBNK.cs" />
+    <Compile Include="Utf8Json\Resolvers\AANMMDHFHAHOGAALHF.cs" />
+    <Compile Include="Utf8Json\Resolvers\ADIKODEMHEEPAIMJGA.cs" />
+    <Compile Include="Utf8Json\Resolvers\CMFIPLBNCIJEKGIFHM.cs" />
+    <Compile Include="Utf8Json\Resolvers\DOANHKOAOIHLFEJPCI.cs" />
+    <Compile Include="Utf8Json\Resolvers\FAHOODOKOCCDBINONC.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\ANNOOAIAEFHIDFNMNG.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\BMJFCBLOGBOBCPBJPD.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\CBEGOAGEBPICMNKLEG.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\DCKHOFMHBHOEKBHDDL.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\ELMHKABIGCEAPECEEE.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\FEKILJHMNOJGOOJNIB.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\FLJEMOBMCNAAMDKMDA.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\GEPLMBKCJOBHPHHPNH.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\GOJFAPFDIABJIEFNFD.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\HIJNHMBDJLFMOLDGNK.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\HKKLOFJMAMHLJLDJMI.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\HMNAMLBBPKJCICJADD.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\IKLNHMGIHFIGKJOOFN.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\JEDCOLEOGMFNOGKCIB.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\JFKPDJJLAGELHJIPGA.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\JIFHPKLFCMIDCLLACA.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\JOEIMEANOGDDBCOFLL.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\KEFBLEBFHMANHNLJJL.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\KMAPELJNNCLMJGCLAF.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\LCIPHDFPOIFHHMBMED.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\LKKPPPDMDLGGJPADNG.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\MCGPNBBHMOFDEDJMPJ.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\MDOLACOFFFEAAFEIIC.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\MIPMNNKELCBHAGKJBH.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\MJMIEGBINDDBGFDGKP.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\NOICGFGCECKIDDMBKC.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\OEGIKLPFMADMDFDAKC.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\OKLAFJEIEBBEMMEJEO.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\PDEPJLHOKAKCPKHJNK.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\PFAPACLHMFAFCKANEO.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\POKNKMIEJNDGDMNHJH.cs" />
+    <Compile Include="Utf8Json\Resolvers\Internal\POONOLDLJBGBIPLHLJ.cs" />
+    <Compile Include="Utf8Json\Resolvers\KNNODPPCNHCIHAIDAO.cs" />
+    <Compile Include="Utf8Json\Resolvers\NPFADGFOHJFOELJADB.cs" />
+    <Compile Include="Utf8Json\Resolvers\PDJOLBODDKGINOODBB.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
