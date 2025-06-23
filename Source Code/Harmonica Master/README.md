@@ -1,0 +1,2 @@
+> # Harmonica
+MITM server by rockshitmin goonsquad sometime in 2022. Was made to work through ngrok, using old quest2 clients to connect to prod servers. Was patched after a few months of use when sigs were added to their api. Only useful as a reference for making your own api.
