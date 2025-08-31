@@ -1,0 +1,1 @@
+Simply just run the exe normally and then the exe as admin after.
