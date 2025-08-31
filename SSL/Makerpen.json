@@ -1,0 +1,207 @@
+{
+
+   "Permissions" : [
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_USE_MAKER_PEN",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_USE_DELETE_ALL_BUTTON",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_SAVE_INVENTIONS",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_SPAWN_INVENTIONS",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_EDIT_ROOM_ROLES",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_USE_MAKER_PEN",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_USE_DELETE_ALL_BUTTON",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_SAVE_INVENTIONS",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_SPAWN_INVENTIONS",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_INVITE",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_PRINT_PHOTOS",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_START_GAMES",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_SPAWN_CONSUMABLES",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      },
+
+      {
+
+         "Override" : true,
+
+         "Permission" : "CAN_USE_PLAY_GIZMOS_TOGGLE",
+
+         "Role" : 0,
+
+         "Type" : 0,
+
+         "Value" : "True"
+
+      }
+
+   ],
+
+   "PhotonAccessToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxNjI4MTcyIiwic2NvcGUiOiJtYWtlcnBlbiIsImF1ZCI6ImE3MzVkYmUyLWI0YzctNDc4NC1iZjUxLTk5MmM0MzZlODVkOSJ9.aGkerJumKoTFx87w3dRZo9nFIJ4q6trkCLqGdBN-jA8",
+
+   "RoomInstanceId" : 4402594520039583115
+
+}
