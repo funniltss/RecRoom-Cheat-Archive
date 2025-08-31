@@ -1,0 +1,1 @@
+Old Iniuria cleaner has been removed and replaced with a newer version which is also more powerful at cleaning RecRoom and Referee. How do you use the new Iniuria cleaner? Run as admin>type in "cleaner" into the licence key box>go to the misc tab>press "Clean RecRoom File's"
