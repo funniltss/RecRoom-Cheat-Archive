@@ -1,1 +1,0 @@
-PlayspaceMover.exe --physics --moveBinding "Right: grip" --resetBinding "Right:Joystick " --gravity 6894 x 805

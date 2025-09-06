@@ -1,1 +1,0 @@
-fetch("https://api.rec.net/api/PlayerCheer/v1/SetSelectedCheer", {"headers": {"authorization": "Bearer " + JSON.parse(localStorage.getItem("oidc.user:https://auth.rec.net:recnet"))['access_token'],"content-type": "application/x-www-form-urlencoded; charset=UTF-8",},"body": "CheerCategory=900","method": "POST","mode": "cors"})
